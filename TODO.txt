@@ -1,1 +1,6 @@
-TODO: Edit Meta
+TODO: Change background (Khaled)
+TODO: LOGO  (Amir)
+TODO: Search bar (Ahmed)
+TODO: Fotter (Ahmed)
+TODO: Home -> Account detials (Name, ID, Cohort, faculty, Major, GPA) (Amir)
+TODO: Schedule -> Courses (Khaled)
