@@ -1,0 +1,52 @@
+/* navbar.css */
+.navbar {
+    background-color: #900404;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links li:not(:last-child) {
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: font-size 0.2s, opacity 0.2s;
+}
+
+.nav-links li:hover a {
+    opacity: 1;
+}
+
+.nav-links li:hover ~ li a {
+    opacity: 0.6;
+}
+
+/* Individual Link Hover Effects */
+.nav-links li:hover a {
+    font-size: 18px;
+}
+
+.nav-links li:nth-child(2):hover a,
+.nav-links li:nth-child(3):hover a {
+    font-size: 18px;
+}
+
+.nav-links li:hover ~ li a {
+    opacity: 0.6;
+}
