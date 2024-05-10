@@ -12,6 +12,7 @@ Our Advising System is designed to provide guidance, recommendations, and suppor
 - [Khaled Mohamed](https://github.com/Khaledmohamed16)
 - Mark Emad
 - Mahmoud Yakout
+- [Amir Rafaat](https://github.com/AmirRaafatNasry)
 
 ## Feedback
 
