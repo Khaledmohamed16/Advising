@@ -4,7 +4,7 @@
 Our Advising System is designed to provide guidance, recommendations, and support to individuals in various contexts. It is designed to ease the registration process of the student and also take the load of off the advisors and supervisors.
 
 
-![logo](https://github.com/Ahmed-Tarek-Abdellatif/Super-Se3edy/assets/119670722/94280b84-5484-41c9-b5bb-b9b659c31534)
+![logo](https://github.com/Khaledmohamed16/Advising/assets/119670722/5ab401dd-2a14-45ea-9a8a-d3458ed4316b)
 
 ## Authors
 
