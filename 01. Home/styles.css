@@ -7,6 +7,9 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-image: url('../Assets/Images/gradient.png');
+    background-size: cover;
+    background-position: center;
     background-color: #f8f8f8;
 }
 
@@ -203,11 +206,14 @@ th {
 
 /* Alternating Row Colors */
 tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #fff;
+    color: #900404;
+
 }
 
 tr:nth-child(odd) {
-    background-color: rgba(220, 199, 180, 0.8);
+    background-color: #900404;
+    color: #fff;
 }
 
 /* Container */
@@ -366,7 +372,6 @@ tr:nth-child(odd) {
     right: 120px;
     /* Adjusted position for the drop button */
 }
-
 .drop-button:hover {
     background-color: rgb(107, 5, 5);
 }
