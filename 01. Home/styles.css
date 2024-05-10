@@ -73,12 +73,13 @@ body {
     background-color: #7a0303;
 }
 
-/* Navbar */
 .navbar {
     background-color: #900404;
     height: 80px;
     padding: 10px 0;
-    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Distribute items at the start and end of the navbar */
+    align-items: center; /* Align items vertically */
 }
 
 .nav-links {
@@ -215,4 +216,47 @@ tr:nth-child(odd) {
     width: 80%;
     margin: 10px auto;
     text-align: center;
+}
+
+.logo {
+    margin-left: 20px; /* Adjust the spacing between logo and navbar */
+}
+
+.logo-img {
+    max-width: 50px; /* Adjust this size as needed */
+}
+
+.divider {
+    height: 2px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+.student-info {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.student-info .info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    text-align: left;
+}
+
+.student-info .student-image {
+    width: 200px; /* Set fixed width for the image container */
+    height: 200px; /* Set fixed height for the image container */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.student-info .student-image img {
+    width: 100%; /* Make sure the image fills the container */
+    height: 100%; /* Make sure the image fills the container */
+    object-fit: cover; /* Ensure the image covers the container */
 }
