@@ -1,2 +1,10 @@
-TODO: Change background (Khaled)
-TODO: Schedule -> Courses (Khaled)
+TODO: fix container
+TODO: make Student Information & image same size
+TODO: fix Student Information -> Instructor Information
+TODO: responsive
+TODO: Payment order -> Bigger
+TODO: fix courses color
+TODO: Petition order -> Button Bigger
+TODO: fix FAQ -> Styling
+TODO: add footer content -> copyright & contact us
+TODO: add instructor point of view
