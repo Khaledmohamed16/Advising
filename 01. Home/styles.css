@@ -18,43 +18,40 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 100px);
-    /* Adjust height based on navbar height */
+    height: calc(100vh - 6.25em); /* Adjust height based on navbar height */
 }
 
 .signup-form {
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 50px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    max-width: 1000px;
-    width: 600px;
+    padding: 1.875em;
+    border-radius: 1.25em;
+    box-shadow: 0px 0px 0.625em rgba(0, 0, 0, 0.1);
+    max-width: 18.75em;
     margin: 0 auto;
 }
 
 .signup-form h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     color: #900404;
 }
 
 .signup-form .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 
 .signup-form .form-group label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125em;
     color: #900404;
-    padding-top: 25px;
     font-weight: bold;
 }
 
 .signup-form .form-group input {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #900404;
-    border-radius: 25px;
+    padding: 0.625em;
+    border: 0.0625em solid #900404;
+    border-radius: 1.5625em;
     background-color: #f8f8f8;
     color: #333;
 }
@@ -66,23 +63,25 @@ body {
 
 .signup-form button {
     width: 100%;
-    padding: 10px;
+    padding: 0.625em;
     background-color: #900404;
     color: #fff;
     border: none;
-    border-radius: 25px;
+    border-radius: 1.5625em;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .signup-form button:hover {
-    background-color: #7a0307;
+    background-color: #7a0303;
 }
 
 .navbar {
     background-color: #900404;
-    height: 80px;
-    padding: 10px 0;
+    height: 6.25em;
+    padding: 0.625em 0;
+    width: 100%;
+    right: 0;
     display: flex;
     justify-content: space-between; /* Distribute items at the start and end of the navbar */
     align-items: center; /* Align items vertically */
@@ -97,34 +96,23 @@ body {
 }
 
 .nav-links li {
-    margin: 0 10px;
+    margin: 0 1.25em;
 }
 
 .nav-links li:not(:last-child) {
-    border-right: 1px solid #fff;
-    padding-right: 10px;
+    border-right: 0.0625em solid #fff;
+    padding-right: 0.625em;
 }
 
 .nav-links li a {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 1em;
     transition: font-size 0.2s, opacity 0.2s;
 }
 
 .nav-links li:hover a {
     opacity: 1;
-}
-
-.nav-links li:hover ~ li a {
-    opacity: 0.6;
-}
-
-/* Individual Link Hover Effects */
-.nav-links li:hover a,
-.nav-links li:nth-child(2):hover a,
-.nav-links li:nth-child(3):hover a {
-    font-size: 18px;
 }
 
 .nav-links li:hover ~ li a {
@@ -189,6 +177,17 @@ body {
     }
 }
 
+/* Individual Link Hover Effects */
+.nav-links li:hover a,
+.nav-links li:nth-child(2):hover a,
+.nav-links li:nth-child(3):hover a {
+    font-size: 1.125em;
+}
+
+.nav-links li:hover ~ li a {
+    opacity: 0.6;
+}
+
 /* Petition Form */
 .petition-container {
     width: 40%; /* Adjust width */
@@ -203,45 +202,45 @@ body {
 }
 
 .petition-form .form-group label {
-    margin-bottom: 5px;
-    margin-left: 40px;
+    margin-bottom: 0.3125em;
+    margin-left: 2.5em;
     color: #900404;
     font-weight: bold;
 }
 
 .petition-form .form-group input {
-    padding: 10px;
-    border: 1px solid #900404;
-    border-radius: 25px;
+    padding: 0.625em;
+    border: 0.0625em solid #900404;
+    border-radius: 1.5625em;
     background-color: #f8f8f8;
     color: #333;
-    margin-bottom: 10px;
-    margin-left: 25px;
-    width: calc(80% - 22px); /* Adjust input width to 50% */
+    margin-bottom: 0.625em;
+    margin-left: 1.5625em;
+    width: calc(80% - 1.375em); /* Adjust input width to 50% */
 }
 
 .petition-form .form-group input:first-child {
-    margin-right: 20px; /* Add margin between inputs */
+    margin-right: 1.25em; /* Add margin between inputs */
 }
 
 .petition-form button {
-    padding: 10px;
+    padding: 0.625em;
     background-color: #900404;
     color: #fff;
     border: none;
-    border-radius: 25px;
+    border-radius: 1.5625em;
     cursor: pointer;
-    margin-top: 15px;
-    margin-left: 30px;
-    margin-bottom: 13%;
+    margin-top: 0.9375em;
+    margin-left: 1.875em;
+    margin-bottom: 12%;
     transition: background-color 0.3s;
-    width: calc(20% - 22px); /* Adjust button width */
+    width: calc(20% - 1.375em); /* Adjust button width */
 }
 
 .petition-form h2 {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
     color: #900404;
 }
 
@@ -249,14 +248,14 @@ body {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 1.25em;
+    margin-bottom: 3.125em;
 }
 
 th,
 td {
-    padding: 10px;
-    border-bottom: 1px solid #900404;
+    padding: 0.625em;
+    border-bottom: 0.0625em solid #900404;
     text-align: center;
 }
 
@@ -269,7 +268,6 @@ th {
 tr:nth-child(even) {
     background-color: #fff;
     color: #900404;
-
 }
 
 tr:nth-child(odd) {
@@ -279,30 +277,30 @@ tr:nth-child(odd) {
 
 /* Container */
 .container {
-    padding: 10px;
-    border-radius: 10px;
-    max-width: 800px;
+    padding: 0.625em;
+    border-radius: 0.625em;
+    max-width: 50em;
     width: 80%;
-    margin: 10px auto;
+    margin: 0.625em auto;
     text-align: center;
 }
 
 .logo {
-    margin-left: 20px; /* Adjust the spacing between logo and navbar */
+    margin-left: 1.25em; /* Adjust the spacing between logo and navbar */
 }
 
 .logo-img {
-    max-width: 50px; /* Adjust this size as needed */
+    max-width: 3.125em; /* Adjust this size as needed */
 }
 
 .divider {
-    height: 2px;
+    height: 0.125em;
     background-color: #ccc;
-    margin: 20px 0;
+    margin: 1.25em 0;
 }
 
 .student-info {
-    margin-top: 50px;
+    margin-top: 3.125em;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -310,30 +308,24 @@ tr:nth-child(odd) {
 
 .student-info .info {
     background-color: #f9f9f9;
-    padding: 22px;
-    width: 350px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-right: 20px;
+    padding: 1.25em;
+    border-radius: 0.625em;
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+    margin-right: 1.25em;
     text-align: left;
 }
 
 .student-info .student-image {
-    width: 220px;
-    /* Set fixed width for the image container */
-    height: 180px;
-    /* Set fixed height for the image container */
+    width: 12.5em; /* Set fixed width for the image container */
+    height: 12.5em; /* Set fixed height for the image container */
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 0.625em;
 }
 
 .student-info .student-image img {
-    width: 100%;
-    /* Make sure the image fills the container */
-    height: 100%;
-    /* Make sure the image fills the container */
-    object-fit: cover;
-    /* Ensure the image covers the container */
+    width: 100%; /* Make sure the image fills the container */
+    height: 100%; /* Make sure the image fills the container */
+    object-fit: cover; /* Ensure the image covers the container */
 }
 
 /* Search Container */
@@ -369,15 +361,22 @@ tr:nth-child(odd) {
     transition: background-color 0.3s;
 }
 
+/* Adjust the icon size and alignment */
+.search-container button i {
+    font-size: 1em;
+    vertical-align: middle;
+}
+
 .search-container button:hover {
     background-color: #7a0303;
 }
+
 
 /* Footer */
 .footer {
     background-color: #900404;
     color: #fff;
-    padding: 5px 0;
+    padding: 0.3125em 0;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -398,30 +397,31 @@ tr:nth-child(odd) {
 
 .footer .footer-links ul li {
     display: inline;
-    margin: 0 20px; /* Increased margin */
+    margin: 0 1.25em; /* Increased margin */
 }
 
 .footer .footer-links ul li a {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s; /* Add transition effect */
-    font-size: 24px; /* Increased font size */
+    font-size: 1.5em; /* Increased font size */
 }
 
 .footer .footer-links ul li a:hover {
     text-decoration: underline;
     color: #6f0101; /* Change color on hover */
 }
+
 .add-button {
     background-color: #900404;
     color: white;
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.3125em;
     cursor: pointer;
     position: absolute;
-    bottom: 90px;
-    right: 250px;
+    bottom: 5.625em;
+    right: 15.625em;
 }
 
 .add-button:hover {
@@ -431,28 +431,41 @@ tr:nth-child(odd) {
 .drop-button {
     background-color: #900404;
     color: white;
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.3125em;
     cursor: pointer;
     position: absolute;
-    bottom: 90px;
-    right: 120px;
+    bottom: 5.625em;
+    right: 7.8125em;
     /* Adjusted position for the drop button */
 }
+
 .drop-button:hover {
     background-color: rgb(107, 5, 5);
 }
 
 .checkbox-container input[type="checkbox"] {
-    transform: scale(1.5);
-    /* Adjust the scale as needed */
+    transform: scale(1.5); /* Adjust the scale as needed */
 }
 
 .checkbox-container input[type="checkbox"]:checked {
-    filter: hue-rotate(180deg);
-    /* Changes color to dark red */
+    filter: hue-rotate(180deg); /* Changes color to dark red */
 }
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .signup-form {
+        max-width: 80%;
+    }
+
+    .petition-container {
+        width: 80%;
+    }
+
+    
+}
+
 /*course info */
 
 .Courseinfo-container {
@@ -502,9 +515,9 @@ tr:nth-child(odd) {
     cursor: pointer;
     margin-top: 15px;
     margin-left: 98px;
-    margin-bottom: 13%;
+    margin-bottom: 20%;
     transition: background-color 0.3s;
-    width: calc(20% - 22px); /* Adjust button width */
+    width: calc(30% - 22px); /* Adjust button width */
 }
 
 .Courseinfo-form h2 {
@@ -512,4 +525,31 @@ tr:nth-child(odd) {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #900404;
+}
+
+/* FAQ Heading */
+h2 {
+    text-align: center;
+    margin-top: 1em; /* Adjust top margin */
+    margin-bottom: 1.5em; /* Adjust bottom margin */
+    color: #900404; /* Red color */
+}
+
+/* FAQ Question Heading */
+h4 {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    color: #900404; /* Red color */
+    margin-top: 1.5em; /* Adjust top margin */
+}
+
+/* FAQ Answer Paragraph */
+p {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    color: #333; /* Dark gray color */
+    margin-bottom: 1.5em; /* Adjust bottom margin */
+    line-height: 1.5; /* Adjust line height for readability */
 }
